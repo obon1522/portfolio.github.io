@@ -130,6 +130,9 @@ top-page
 .top-menu li a:hover{
   color: #4B605E;
 }
+.sp6{
+  display: none;
+}
 @keyframes topIn{
     0%{
         opacity: 0;
@@ -398,6 +401,12 @@ skill.html
   .menu li{
     font-size: 0.8rem;
   }
+  .top-menu li{
+    width: 115px;
+    height: 115px;
+    margin: 0 20px;
+    line-height: 115px;
+  }
   .site-title{
     font-size: 1.0rem;
   }
@@ -467,15 +476,35 @@ skill.html
       padding-bottom: 60px;
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 600px){
+  .top-content{
+    padding: 10px 15px;
+  }
+  .top-title{
+    font-size: 3.0rem;
+    margin-bottom: 10px;
+  }
+  .top-content p{
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .sp6{
+    display: block;
+  }
+  .top-menu ul{
+    padding: 0 15px;
+  }
   .top-menu li{
-    width: 115px;
-    height: 115px;
-    margin: 0 20px;
-    line-height: 115px;
+    width: 100px;
+    height: 100px;
+    margin: 0 8px;
+    line-height: 100px;
+  }
+  #work{
+    width: 96%;
   }
   .work-section .tabs-nav a {
-      width: 70px;
-      font-size: 0.8rem;
+      width: 65px;
+      font-size: 0.7rem;
   }
 }
