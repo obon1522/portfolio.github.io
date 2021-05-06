@@ -48,7 +48,7 @@ body::after {
   width: 100%;
   height: 100%;
   background-color:#E4EDEC;
-  z-index: 9999;
+  z-index: 8888;
   pointer-events: none;
   opacity: 0;
   -webkit-transition: opacity .5s ease;
@@ -341,7 +341,7 @@ work.html
 -----------------------------------------------*/
 .modal {
       position: fixed;
-      z-index: 100;
+      z-index: 9999;
       top: 0;
       left: 0;
       width: 100%;
@@ -516,5 +516,11 @@ skill.html
   .work-section .tabs-nav a {
       width: 65px;
       font-size: 0.7rem;
+  }
+   .work-section .section-body .content > .inner p{
+      margin: 0 40px 15px;
+  }
+  .content{
+    padding-top: 10px;
   }
 }
